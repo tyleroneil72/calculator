@@ -58,6 +58,7 @@ button {
     border-radius: 5px;
     font-size: larger;
     border: solid 3px black;
+    color: black;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -133,15 +134,26 @@ button:hover {
     width: 217px;
     background-color: #ffba39;
 }
+
 .eq {
     grid-column: 2/4;
     width: 217px;
     background-color: #ffba39;
 }
+
 .operator {
     background-color: #d0faec;
 }
 
 .selected {
     color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 27px;
+    }
+    h2 {
+        display: none;
+    }
 }
