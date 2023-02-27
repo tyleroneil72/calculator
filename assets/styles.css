@@ -32,20 +32,6 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    position: relative;
-    top: 25px;
-    left: 65px;
-    background-color: lightgray;
-    width: 212px;
-    border-radius: 10px;
-    border: solid 3px black;
-    padding: 2px;
-    font-size: 32px;
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
-}
-
 h3 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -152,8 +138,5 @@ button:hover {
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 27px;
-    }
-    h2 {
-        display: none;
     }
 }
