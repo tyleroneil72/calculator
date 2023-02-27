@@ -107,7 +107,7 @@ button:hover {
 
 #grid {
     position: relative;
-    top: 30px;
+    top: 55px;
     left: 7.5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
